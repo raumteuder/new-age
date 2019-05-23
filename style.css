@@ -28,8 +28,32 @@ body {
   width: 80%;
 }
 
-.phone-image:last-child > img.screen-content {
-  left: 22.7%;
+.screen-content.second {
+  top: 50%;
+}
+.row.get-started-row {
+  background-image: url("./images/bg-cta.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 0;
+  padding-top: 50%;
+  position: relative;
+}
+.row.get-started-row:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+.get-started-details {
+  position: absolute;
+  top: 35%;
+  left: 17%;
 }
 i.description-icon {
   color: rgb(136, 70, 81);
@@ -44,7 +68,7 @@ i.description-icon {
   border-radius: 2rem !important;
 }
 .phone-sprite {
-  background: url("sprite.png") no-repeat top left;
+  background: url("./images/sprite.png") no-repeat top left;
 }
 .phone-sprite.phone {
   background-position: 0 0;
@@ -58,7 +82,7 @@ i.description-icon {
 }
 
 .connect-sprite {
-  background: url("connect.png") no-repeat top left;
+  background: url("./images/connect.png") no-repeat top left;
   width: 128px;
   height: 128px;
 }
@@ -66,8 +90,8 @@ i.description-icon {
   background-position: 0 0;
 }
 .connect-sprite.facebook {
-  background-position: -138px 0;
+  background-position: 0 -138px;
 }
 .connect-sprite.gplus {
-  background-position: -276px 0;
+  background-position: 0 -276px;
 }
