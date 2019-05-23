@@ -81,17 +81,23 @@ i.description-icon {
   height: 1104px;
 }
 
-.connect-sprite {
-  background: url("./images/connect.png") no-repeat top left;
-  width: 128px;
-  height: 128px;
+.connect-sprite-twitter {
+  background: url("./images/connect.png") -0px -0px no-repeat;
+  width: 45px;
+  height: 45px;
+  display: inline-block;
 }
-.connect-sprite.twitter {
-  background-position: 0 0;
+
+.connect-sprite-facebook {
+  background: url("./images/connect.png") -45px -0px no-repeat;
+  width: 45px;
+  height: 45px;
+  display: inline-block;
 }
-.connect-sprite.facebook {
-  background-position: 0 -138px;
-}
-.connect-sprite.gplus {
-  background-position: 0 -276px;
+
+.connect-sprite-gplus {
+  background: url("./images/connect.png") -90px -0px no-repeat;
+  width: 45px;
+  height: 45px;
+  display: inline-block;
 }
