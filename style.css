@@ -28,9 +28,12 @@ body {
   width: 80%;
 }
 
-/* .discover-image {
-  top: -50px;
-} */
+.phone-image:last-child > img.screen-content {
+  left: 22.7%;
+}
+i.description-icon {
+  color: rgb(136, 70, 81);
+}
 #navbar-newage .navbar-brand {
   color: yellow;
 }
