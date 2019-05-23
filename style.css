@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: url("./images/bg-pattern.png"),
+    -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
+}
+h,
+h2,
+h3,
+h5,
+h6 {
+  font-family: "Catamaran", sans-serif;
+  letter-spacing: 0.5px;
+}
+.phone-image img {
+  height: 30rem;
+}
+.phone-image > img.screen-content {
+  height: 76%;
+  top: 3.5rem;
+  left: 7.2rem;
+}
+
+.jumbotron {
+  text-align: center;
+  background: none;
+}
+#navbar-newage {
+  background: none;
+  color: white;
+  width: 80%;
+  font-family: "Catamaran", sans-serif;
+}
+
+.screen-content.second {
+  top: 50%;
+}
+.row.get-started-row {
+  background-image: url("./images/bg-cta.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 0;
+  padding-top: 50%;
+  position: relative;
+}
+.row.get-started-row:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+.get-started-details {
+  position: absolute;
+  top: 35%;
+  left: 17%;
+}
+i.description-icon {
+  color: rgb(136, 70, 81);
+}
+#navbar-newage .navbar-brand {
+  color: yellow;
+}
+#navbar-newage .nav-item .nav-link {
+  color: white;
+  letter-spacing: 0.8px;
+}
+
+.btn-default {
+  border-radius: 2rem !important;
+}
+
+.connect-sprite-twitter {
+  background: url("./images/connect.png") -0px -0px no-repeat;
+  width: 45px;
+  height: 45px;
+  display: inline-block;
+}
+
+.connect-sprite-facebook {
+  background: url("./images/connect.png") -45px -0px no-repeat;
+  width: 45px;
+  height: 45px;
+  display: inline-block;
+}
+
+.connect-sprite-gplus {
+  background: url("./images/connect.png") -90px -0px no-repeat;
+  width: 45px;
+  height: 45px;
+  display: inline-block;
+}
