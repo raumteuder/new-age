@@ -25,8 +25,12 @@ body {
 #navbar-newage {
   background: none;
   color: white;
-  width: 75%;
+  width: 80%;
 }
+
+/* .discover-image {
+  top: -50px;
+} */
 #navbar-newage .navbar-brand {
   color: yellow;
 }
