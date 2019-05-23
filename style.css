@@ -67,19 +67,6 @@ i.description-icon {
 .btn-default {
   border-radius: 2rem !important;
 }
-.phone-sprite {
-  background: url("./images/sprite.png") no-repeat top left;
-}
-.phone-sprite.phone {
-  background-position: 0 0;
-  width: 1248px;
-  height: 2518px;
-}
-.phone-sprite.screen {
-  background-position: -1258px 0;
-  width: 621px;
-  height: 1104px;
-}
 
 .connect-sprite-twitter {
   background: url("./images/connect.png") -0px -0px no-repeat;
