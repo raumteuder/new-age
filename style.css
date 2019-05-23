@@ -10,7 +10,32 @@ body {
   background: url("./images/bg-pattern.png"),
     -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
 }
-
+.phone-image img {
+  height: 30rem;
+}
+.phone-image > img.screen-content {
+  height: 76%;
+  top: 3.5rem;
+  left: 7.2rem;
+}
+.jumbotron {
+  text-align: center;
+  background: none;
+}
+#navbar-newage {
+  background: none;
+  color: white;
+  width: 75%;
+}
+#navbar-newage .navbar-brand {
+  color: yellow;
+}
+#navbar-newage .nav-item .nav-link {
+  color: white;
+}
+.btn-default {
+  border-radius: 2rem !important;
+}
 .phone-sprite {
   background: url("sprite.png") no-repeat top left;
 }

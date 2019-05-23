@@ -29,68 +29,81 @@
     <title>New Age</title>
   </head>
   <body>
-    <h1>Project</h1>
     <!-- container for whole page -->
     <div class="container">
       <!-- navbar starts here -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand" href="#">Start Bootstrap</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon">
-            Menu<i class="fas fa-bars"></i
-          ></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#"
-                >Download <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
+      <nav
+        class="navbar navbar-expand-lg navbar-light fixed-top mx-auto"
+        id="navbar-newage"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="#">Start Bootstrap</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon">
+              Menu<i class="fas fa-bars"></i
+            ></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#"
+                  >Download <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
       <!-- navbar ends here -->
       <!-- first section starts here -->
-      <section class="jumbotron container row">
-        <!-- column for description -->
-        <div class="col-sm-8">
-          <h3>
-            New Age is an app landing page that will help you beautifully
-            showcase your new mobile app, or anything else!
-          </h3>
-          <button type="button" class="btn btn-lg btn-outline">
-            START NOW FOR FREE
-          </button>
-        </div>
-        <!-- column for images -->
-        <div class="col-sm-4">
-          <!-- container for images -->
-          <div class="container phone-image">
-            <img
-              class="d-block mx-auto mx-md-0 position relative"
-              src=".images/iphone_6_plus_white_port.png"
-              alt="container for device image"
-            />
-            <img
-              class="d-block mx-auto mx-md-0 position relative"
-              src=".images/iphone_6_plus_white_port.jpg"
-              alt="container for screen image"
-            />
+      <section class="jumbotron">
+        <div class="container-fluid mt-5">
+          <div class="row">
+            <!-- column for description -->
+            <div class="col-sm-5 ml-auto pl-5 pr-4 text-left my-auto">
+              <h2 class="description text-white mb-4">
+                New Age is an app landing page that will help you beautifully
+                showcase your new mobile app, or anything else!
+              </h2>
+              <button
+                type="button"
+                class="btn btn-default btn-outline border rounded text-white mt-4"
+              >
+                <h6 class="my-auto small py-1 px-4">
+                  START NOW FOR FREE
+                </h6>
+              </button>
+            </div>
+            <!-- column for images -->
+            <div class="col-sm-5 mr-auto">
+              <!-- container for images -->
+              <div class="container phone-image">
+                <img
+                  class="mx-auto mx-md-0 position-relative"
+                  src="./images/iphone_6_plus_white_port.png"
+                  alt="container for device image"
+                />
+                <img
+                  class="screen-content mx-auto mx-md-0 position-absolute"
+                  src="./images/iphone_6_plus_white_port.jpg"
+                  alt="container for screen image"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -132,18 +145,20 @@
           <div class="row mx-auto">
             <div class="col-sm-2">
               <div class="container phone-image">
-                <!-- <img
-                  class="d-block mx-auto mx-md-0 position relative"
-                  src=".images/iphone_6_plus_white_port.png"
-                  alt="container for device image"
-                />
-                <img
-                  class="d-block mx-auto mx-md-0 position relative"
-                  src=".images/iphone_6_plus_white_port.jpg"
-                  alt="container for screen image"
-                /> -->
-                <div class="phone-sprite phone"></div>
-                <div class="phone-sprite screen"></div>
+                <div class="container phone-image">
+                  <img
+                    class="mx-auto mx-md-0 position-relative"
+                    src="./images/iphone_6_plus_white_port.png"
+                    alt="container for device image"
+                  />
+                  <img
+                    class="screen-content mx-auto mx-md-0 position-absolute"
+                    src="./images/iphone_6_plus_white_port.jpg"
+                    alt="container for screen image"
+                  />
+                </div>
+                <!-- <div class="phone-sprite phone"></div>
+                <div class="phone-sprite screen"></div> -->
               </div>
             </div>
             <div class="col-sm-6 container-fluid">
