@@ -10,6 +10,14 @@ body {
   background: url("./images/bg-pattern.png"),
     -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
 }
+h,
+h2,
+h3,
+h5,
+h6 {
+  font-family: "Catamaran", sans-serif;
+  letter-spacing: 0.5px;
+}
 .phone-image img {
   height: 30rem;
 }
@@ -18,6 +26,7 @@ body {
   top: 3.5rem;
   left: 7.2rem;
 }
+
 .jumbotron {
   text-align: center;
   background: none;
@@ -26,6 +35,7 @@ body {
   background: none;
   color: white;
   width: 80%;
+  font-family: "Catamaran", sans-serif;
 }
 
 .screen-content.second {
@@ -63,7 +73,9 @@ i.description-icon {
 }
 #navbar-newage .nav-item .nav-link {
   color: white;
+  letter-spacing: 0.8px;
 }
+
 .btn-default {
   border-radius: 2rem !important;
 }
