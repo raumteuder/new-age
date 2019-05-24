@@ -10,6 +10,7 @@ body {
   background: url("./images/bg-pattern.png"),
     -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
 }
+
 h,
 h2,
 h3,
@@ -24,18 +25,33 @@ h6 {
 .phone-image > img.screen-content {
   height: 76%;
   top: 3.5rem;
-  left: 7.2rem;
+  left: 7.7rem;
+}
+
+.phone-image > img.screen-content.second {
+  left: 2.9rem;
 }
 
 .jumbotron {
   text-align: center;
   background: none;
 }
+
 #navbar-newage {
-  background: none;
   color: white;
-  width: 80%;
-  font-family: "Catamaran", sans-serif;
+  width: 100%;
+  font-family: "Lato", sans-serif;
+  background: url("./images/bg-pattern.png"),
+    -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
+}
+#navbar-container {
+  width: 75%;
+}
+#navbarSupportedContent > ul > li {
+  opacity: 0.6;
+}
+#navbarSupportedContent > ul > li:hover {
+  opacity: 1;
 }
 
 .screen-content.second {
