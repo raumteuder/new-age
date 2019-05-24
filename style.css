@@ -10,6 +10,7 @@ body {
   background: url("./images/bg-pattern.png"),
     -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
 }
+
 h,
 h2,
 h3,
@@ -35,11 +36,16 @@ h6 {
   text-align: center;
   background: none;
 }
+
 #navbar-newage {
-  background: none;
   color: white;
-  width: 80%;
+  width: 100%;
   font-family: "Lato", sans-serif;
+  background: url("./images/bg-pattern.png"),
+    -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
+}
+#navbar-container {
+  width: 75%;
 }
 #navbarSupportedContent > ul > li {
   opacity: 0.6;
