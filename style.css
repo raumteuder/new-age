@@ -24,7 +24,11 @@ h6 {
 .phone-image > img.screen-content {
   height: 76%;
   top: 3.5rem;
-  left: 7.2rem;
+  left: 7.7rem;
+}
+
+.phone-image > img.screen-content.second {
+  left: 2.9rem;
 }
 
 .jumbotron {
@@ -35,7 +39,13 @@ h6 {
   background: none;
   color: white;
   width: 80%;
-  font-family: "Catamaran", sans-serif;
+  font-family: "Lato", sans-serif;
+}
+#navbarSupportedContent > ul > li {
+  opacity: 0.6;
+}
+#navbarSupportedContent > ul > li:hover {
+  opacity: 1;
 }
 
 .screen-content.second {
