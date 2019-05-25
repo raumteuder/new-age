@@ -36,14 +36,11 @@
     <!-- container for whole page -->
     <div class="container-fluid text-center">
       <!-- navbar starts here -->
-      <nav
-        class="navbar navbar-expand-lg navbar-light fixed-top mx-auto"
-        id="navbar-newage"
-      >
+      <nav class="navbar navbar-expand-lg mx-auto" id="navbar-newage">
         <div class="container" id="navbar-container">
           <a class="navbar-brand" href="#">Start Bootstrap</a>
           <button
-            class="navbar-toggler"
+            class="navbar-toggler border-0"
             type="button"
             data-toggle="collapse"
             data-target="#navbarSupportedContent"
@@ -51,9 +48,7 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon">
-              Menu<i class="fas fa-bars"></i
-            ></span>
+            <i class="fas navicon fa-bars text-white"></i>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
@@ -74,12 +69,14 @@
       </nav>
       <!-- navbar ends here -->
       <!-- first section starts here -->
-      <section class="jumbotron">
-        <div class="container-fluid mt-5">
+      <section class="jumbotron pt-sm-5">
+        <div class="container-fluid">
           <div class="row">
             <!-- column for description -->
-            <div class="col-sm-4 ml-auto pl-5 pr-0 text-left my-auto">
-              <h2 class="description text-white mb-4">
+            <div
+              class="col-md-4 col-sm-10 jumbotron-description ml-md-auto mt-md-5 mx-sm-auto mr-md-5 text-md-left"
+            >
+              <h2 class="text-white mb-4">
                 New Age is an app landing page that will help you beautifully
                 showcase your new mobile app, or anything else!
               </h2>
@@ -87,15 +84,30 @@
                 type="button"
                 class="btn btn-default btn-outline border rounded text-white mt-4"
               >
-                <h6 class="my-auto small py-1 px-4 text-uppercase">
-                  start now for free
-                </h6>
+                <p class="my-auto small py-1 px-4 text-uppercase">
+                  start now for free!
+                </p>
               </button>
             </div>
             <!-- column for images -->
-            <div class="col-sm-4 mr-auto pl-5">
+            <div class="col-md-3 col-sm-12 mr-auto pl-5 ">
+              <!-- new-code -->
               <!-- container for images -->
-              <div class="container phone-image position-realtive">
+              <!-- <div class="device-container position-realtive">
+                <div class="phone-image position-absolute">
+                  <div class="screen-image position-absolute">
+                    <img
+                      class="img-fluid"
+                      src="./images/iphone_6_plus_white_port.jpg"
+                      alt="container for screen image"
+                    />
+                  </div>
+                </div>
+              </div> -->
+              <!-- old code -->
+              <div
+                class="container phone-image position-realtive pt-sm-5 pt-md-0"
+              >
                 <img
                   class="mx-auto mx-md-0"
                   src="./images/iphone_6_plus_white_port.png"
@@ -116,7 +128,7 @@
       <!-- second section starts here: download -->
       <section class="discover">
         <div class="row bg-warning py-5">
-          <div class="col-sm-5 mr-auto ml-auto ">
+          <div class="col-md-5 col-sm-6 mr-auto ml-auto ">
             <h1 class="pt-5 pb-3">
               Discover what all the <br />
               buzz is about
@@ -148,36 +160,42 @@
       <!-- third section starts here: description -->
       <section class="description">
         <div class="row bg-white my-auto">
-          <div class="col-sm-6 mx-auto py-5">
+          <div class="col-md-6 col-sm-8 mx-auto py-5">
             <h2 class="mt-5">Unlimited Features, Unlimited Fun</h2>
             <p>Check out what you can do with this app theme!</p>
           </div>
-          <div class="row mx-auto my-auto py-5">
-            <div class="col-sm-3 text-right ml-auto mt-auto mb-5  pr-0">
+          <div class="row mx-auto my-auto py-5 ">
+            <div
+              class="col-md-3 col-sm-6 textright ml-md-auto mx-sm-auto mt-auto mb-5 pr-0"
+            >
               <!-- container for images -->
-              <div class="container phone-image position-realtive">
+              <div class="container phone-image position-realtive ">
                 <img
-                  class="mx-auto mx-md-0"
+                  class="mx-auto mx-md-0 "
                   src="./images/iphone_6_plus_white_port.png"
                   alt="container for device image"
                 />
                 <img
-                  class="screen-content second mx-auto mx-md-0 position-absolute"
+                  class="screen-content img-fluid second mx-auto mx-md-0 position-absolute"
                   src="./images/iphone_6_plus_white_port.jpg"
                   alt="container for screen image"
                 />
               </div>
             </div>
-            <div class="col-sm-6 container my-auto ml-4">
+            <div
+              class="col-md-6 col-sm-12 description-content container my-md-auto ml-md-4 mt-5 mt-md-0 "
+            >
+              <!-- container for details and icons -->
               <div class="row">
-                <div class="col-sm-6">
+                <div class="col-md-6">
                   <i class="fas fa-mobile-alt fa-4x description-icon mb-3"></i>
                   <h5>Device Mockups</h5>
                   <p class="small">
                     Ready to use HTML/CSS device mockups, no Photoshop required!
                   </p>
                 </div>
-                <div class="col-sm-6">
+                <!-- bug next line breaks at xs -->
+                <div class="col-md-6 pt-sm-5  pt-md-0">
                   <i class="fas fa-camera fa-4x description-icon mb-3"></i>
                   <h5>Flexible Use</h5>
                   <p class="small">
@@ -187,7 +205,7 @@
                 </div>
               </div>
               <div class="row">
-                <div class="col-sm-6">
+                <div class="col-md-6">
                   <i class="fas fa-gift fa-4x description-icon mt-5 mb-3"></i>
                   <h5>Free to Use</h5>
                   <p class="small">
@@ -195,7 +213,7 @@
                     purpose!
                   </p>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-md-6">
                   <i
                     class="fas fa-unlock-alt fa-4x description-icon mt-5 mb-3"
                   ></i>
@@ -215,7 +233,7 @@
       <!-- get-started section starts here -->
       <section class="get-started text-left">
         <div class="row get-started-row">
-          <div class="container get-started-details">
+          <div class="container get-started-details pb-sm-5">
             <h1 class="my-auto text-white display-4">
               Stop waiting. <br />
               Start building.
@@ -225,9 +243,9 @@
                 type="button"
                 class="btn btn-default btn-outline border rounded text-white mt-4"
               >
-                <h6 class="my-auto small py-1 px-4 text-uppercase">
+                <p class="my-auto small py-1 px-4 text-uppercase">
                   let's get started
-                </h6>
+                </p>
               </button></a
             >
           </div>

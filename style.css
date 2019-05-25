@@ -19,18 +19,39 @@ h6 {
   font-family: "Catamaran", sans-serif;
   letter-spacing: 0.5px;
 }
+
+/* initial style for images non responsive  */
 .phone-image img {
-  height: 30rem;
+  height: 49vh;
 }
 .phone-image > img.screen-content {
-  height: 76%;
-  top: 3.5rem;
-  left: 7.7rem;
+  height: 37vh;
+  top: 6vh;
+  left: 6.3vw;
+}
+
+/* new style for images responsive */
+/* .phone-image {
+  background-image: url("./images/iphone_6_plus_white_port.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.screen-image {
+  top: 2.2rem;
+  bottom: 2.2rem;
+  left: 5.25rem;
+  right: 5.25rem;
+  width: 45%;
+  height: 100%;
 }
 
 .phone-image > img.screen-content.second {
-  left: 2.9rem;
-}
+  left: 3.4vw;
+} */
 
 .jumbotron {
   text-align: center;
@@ -43,6 +64,9 @@ h6 {
   font-family: "Lato", sans-serif;
   background: url("./images/bg-pattern.png"),
     -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
+}
+#navbar-container > a:hover {
+  opacity: 0.7;
 }
 #navbar-container {
   width: 75%;
@@ -74,7 +98,7 @@ h6 {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.5);
 }
 .get-started-details {
   position: absolute;
@@ -115,4 +139,55 @@ i.description-icon {
   width: 45px;
   height: 45px;
   display: inline-block;
+}
+
+@media all and (max-width: 991px) {
+  /* .navbar-toggler-icon {
+    font-size: 0.8rem;
+  }
+  .navicon {
+    opacity: 0.7;
+  }
+  .jumbotron-description {
+    padding-left: 0 !important;
+  }
+  div.description-content {
+    padding-left: 20%;
+  } */
+  .get-started-details {
+    top: 25%;
+    left: 12%;
+  }
+  .get-started-details > h1 {
+    font-size: 3rem;
+  }
+}
+
+@media all and (max-width: 768px) {
+  #navbar-newage {
+    display: none;
+  }
+  .phone-image > img.screen-content {
+    left: 14.5rem;
+  }
+
+  .phone-image > img.screen-content.second {
+    /* left: 4.2rem;
+     */
+    left: 8vw;
+  }
+  .get-started-row {
+    height: 40rem !important;
+  }
+  .get-started-details {
+    top: 33%;
+    left: 11.5%;
+    /* letter-spacing: 2px; */
+  }
+  .get-started-details > h1 {
+    font-size: 3.5rem;
+  }
+  /* .discover div div h1 {
+    font-size: 2.5rem;
+  } */
 }
