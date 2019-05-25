@@ -73,8 +73,6 @@ h2 {
   color: white;
   width: 100%;
   font-family: "Lato", sans-serif;
-  background: url("./images/bg-pattern.png"),
-    -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
 }
 #navbar-container > a:hover {
   opacity: 0.7;
@@ -165,6 +163,11 @@ i.description-icon {
   display: inline-block;
 }
 
+.connect.images > a:hover,
+.discover-image > a:hover {
+  opacity: 0.7;
+}
+
 @media all and (max-width: 991px) {
   /* .navbar-toggler-icon {
     font-size: 0.8rem;
@@ -185,14 +188,35 @@ i.description-icon {
   .get-started-details > h1 {
     font-size: 3rem;
   }
+
+  #navbar-container {
+    position: relative;
+  }
+  #navbarSupportedContent {
+    position: absolute;
+    top: 3rem;
+    right: 0.7rem;
+    z-index: 1;
+    padding: 5px 10px;
+    margin-top: 0.2rem;
+    background: rgba(255, 255, 255, 0.9);
+  }
+  #navbarSupportedContent > ul > li > a {
+    color: black !important;
+  }
+  #navbarSupportedContent > ul > li > a :hover {
+    opacity: 0.8 !important;
+  }
 }
 
 @media all and (max-width: 768px) {
-  #navbar-newage {
-    display: none;
-  }
   .phone-image > img.screen-content {
     left: 14.5rem;
+  }
+
+  #navbar-newage > div.container {
+    width: 100vw;
+    height: 4rem;
   }
 
   .phone-image > img.screen-content.second {
