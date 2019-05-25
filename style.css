@@ -20,16 +20,16 @@ h6 {
   letter-spacing: 0.5px;
 }
 .phone-image img {
-  height: 30rem;
+  height: 70vh;
 }
 .phone-image > img.screen-content {
-  height: 76%;
-  top: 3.5rem;
-  left: 7.7rem;
+  height: 53vh;
+  top: 8.5vh;
+  left: 9.3vw;
 }
 
 .phone-image > img.screen-content.second {
-  left: 2.9rem;
+  left: 3.4vw;
 }
 
 .jumbotron {
@@ -43,6 +43,9 @@ h6 {
   font-family: "Lato", sans-serif;
   background: url("./images/bg-pattern.png"),
     -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
+}
+#navbar-container > a:hover {
+  opacity: 0.7;
 }
 #navbar-container {
   width: 75%;
@@ -115,4 +118,44 @@ i.description-icon {
   width: 45px;
   height: 45px;
   display: inline-block;
+}
+
+@media all and (max-width: 991px) {
+  /* .navbar-toggler-icon {
+    font-size: 0.8rem;
+  }
+  .navicon {
+    opacity: 0.7;
+  }
+  .jumbotron-description {
+    padding-left: 0 !important;
+  }
+  div.description-content {
+    padding-left: 20%;
+  } */
+  .get-started-details {
+    top: 25%;
+    left: 12%;
+  }
+  .get-started-details > h1 {
+    font-size: 3rem;
+  }
+}
+
+@media all and (max-width: 768px) {
+  #navbar-newage {
+    display: none;
+  }
+  .phone-image > img.screen-content {
+    left: 14.5rem;
+  }
+
+  .phone-image > img.screen-content.second {
+    /* left: 4.2rem;
+     */
+    left: 8vw;
+  }
+  /* .discover div div h1 {
+    font-size: 2.5rem;
+  } */
 }
