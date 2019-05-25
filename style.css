@@ -9,6 +9,7 @@ body {
   height: 100%;
   background: url("./images/bg-pattern.png"),
     -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
+  font-family: "Muli", sans-serif;
 }
 
 h,
@@ -20,15 +21,20 @@ h6 {
   letter-spacing: 0.5px;
 }
 
+h2 {
+  font-size: 2.5rem;
+}
+
 /* initial style for images non responsive  */
-.phone-image img {
+/* .phone-image img {
   height: 49vh;
 }
 .phone-image > img.screen-content {
   height: 37vh;
   top: 6vh;
   left: 6.3vw;
-}
+  right: 6.3vw;
+} */
 
 /* new style for images responsive */
 /* .phone-image {
@@ -52,6 +58,11 @@ h6 {
 .phone-image > img.screen-content.second {
   left: 3.4vw;
 } */
+
+/* style for single image of phone and screen */
+.phone-image img {
+  max-height: 74vh;
+}
 
 .jumbotron {
   text-align: center;
@@ -118,6 +129,11 @@ i.description-icon {
 
 .btn-default {
   border-radius: 2rem !important;
+}
+
+.btn {
+  font-size: 0.8rem;
+  letter-spacing: 0.4px;
 }
 
 .connect-sprite-twitter {
