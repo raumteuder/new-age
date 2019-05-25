@@ -19,18 +19,39 @@ h6 {
   font-family: "Catamaran", sans-serif;
   letter-spacing: 0.5px;
 }
+
+/* initial style for images non responsive  */
 .phone-image img {
-  height: 70vh;
+  height: 49vh;
 }
 .phone-image > img.screen-content {
-  height: 53vh;
-  top: 8.5vh;
-  left: 9.3vw;
+  height: 37vh;
+  top: 6vh;
+  left: 6.3vw;
+}
+
+/* new style for images responsive */
+/* .phone-image {
+  background-image: url("./images/iphone_6_plus_white_port.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.screen-image {
+  top: 2.2rem;
+  bottom: 2.2rem;
+  left: 5.25rem;
+  right: 5.25rem;
+  width: 45%;
+  height: 100%;
 }
 
 .phone-image > img.screen-content.second {
   left: 3.4vw;
-}
+} */
 
 .jumbotron {
   text-align: center;
@@ -77,7 +98,7 @@ h6 {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.5);
 }
 .get-started-details {
   position: absolute;
@@ -154,6 +175,17 @@ i.description-icon {
     /* left: 4.2rem;
      */
     left: 8vw;
+  }
+  .get-started-row {
+    height: 40rem !important;
+  }
+  .get-started-details {
+    top: 33%;
+    left: 11.5%;
+    /* letter-spacing: 2px; */
+  }
+  .get-started-details > h1 {
+    font-size: 3.5rem;
   }
   /* .discover div div h1 {
     font-size: 2.5rem;
