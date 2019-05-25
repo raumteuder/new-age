@@ -136,6 +136,14 @@ i.description-icon {
   letter-spacing: 0.4px;
 }
 
+.btn:hover {
+  color: black;
+  background: white;
+}
+.btn:hover > p {
+  color: black;
+}
+
 .connect-sprite-twitter {
   background: url("./images/connect.png") -0px -0px no-repeat;
   width: 45px;
