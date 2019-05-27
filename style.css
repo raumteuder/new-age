@@ -210,6 +210,10 @@ i.description-icon {
 }
 
 @media all and (max-width: 768px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
   .phone-image > img.screen-content {
     left: 14.5rem;
   }
