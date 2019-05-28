@@ -1,3 +1,7 @@
+:root {
+  --yellow: #fdc947;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -17,6 +21,7 @@ h1,
 h2,
 h3,
 h5,
+h4,
 h6 {
   font-family: "Catamaran", sans-serif;
   letter-spacing: 0.5px;
@@ -125,8 +130,12 @@ h2 {
 i.description-icon {
   color: rgb(136, 70, 81);
 }
+
+.bg-yellow {
+  background: var(--yellow);
+}
 #navbar-newage .navbar-brand {
-  color: yellow;
+  color: var(--yellow);
 }
 #navbar-newage .nav-item .nav-link {
   color: white;
