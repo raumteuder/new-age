@@ -72,17 +72,18 @@ h2 {
 
 #navbar-newage {
   color: white;
-  width: 100%;
+  width: 100vw;
   font-family: "Lato", sans-serif;
 }
 #navbar-container > a:hover {
   opacity: 0.7;
 }
 #navbar-container {
-  width: 75%;
+  font-size: 0.8rem;
+  width: 75vw;
 }
 #navbarSupportedContent > ul > li {
-  opacity: 0.6;
+  opacity: 0.8;
 }
 #navbarSupportedContent > ul > li:hover {
   opacity: 1;
@@ -91,16 +92,16 @@ h2 {
 .screen-content.second {
   top: 50%;
 }
-.row.get-started-row {
+.get-started-row {
   background-image: url("./images/bg-cta.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 0;
-  padding-top: 50%;
+  padding-top: 48%;
   position: relative;
 }
-.row.get-started-row:before {
+.row.get-started-row::before {
   content: "";
   display: block;
   position: absolute;
@@ -113,7 +114,7 @@ h2 {
 .get-started-details {
   position: absolute;
   top: 35%;
-  left: 17%;
+  left: 14.2%;
 }
 i.description-icon {
   color: rgb(136, 70, 81);
@@ -145,22 +146,22 @@ i.description-icon {
 
 .connect-sprite-twitter {
   background: url("./images/connect.png") -0px -0px no-repeat;
-  width: 45px;
-  height: 45px;
+  width: 60px;
+  height: 60px;
   display: inline-block;
 }
 
 .connect-sprite-facebook {
-  background: url("./images/connect.png") -45px -0px no-repeat;
-  width: 45px;
-  height: 45px;
+  background: url("./images/connect.png") -60px -0px no-repeat;
+  width: 70px;
+  height: 60px;
   display: inline-block;
 }
 
 .connect-sprite-gplus {
-  background: url("./images/connect.png") -90px -0px no-repeat;
-  width: 45px;
-  height: 45px;
+  background: url("./images/connect.png") -130px -0px no-repeat;
+  width: 70px;
+  height: 60px;
   display: inline-block;
 }
 
